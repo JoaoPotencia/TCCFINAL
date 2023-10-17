@@ -107,12 +107,14 @@ a:focus {
   
 }
 
-a:hover,
+
 a:focus {
   color: initial;
-  color: var(--text-verde) !important;
 }
 
+a:hover {
+  color: var(--text-verde) !important;
+}
 
 
 .btn,
@@ -515,4 +517,39 @@ a:focus {
 }
 .navbar-brand img{
   width: 200px;
+}
+
+
+
+.custom_heading-container h2{
+  color: var(--text-prkal);
+  
+  text-transform: uppercase;
+}
+
+#mt{
+  margin-left: 100px;
+}
+
+.cardMitos{
+  margin-bottom: 1rem;
+  color: #fcfcfc; /*COR DA RESPOSTA NO MITOS E VERDADES*/
+  background-color: var(--text-prkal);
+}
+
+#rp1{
+  color: white;
+  border-top: black ;
+  border-left : blueviolet;
+  border-right : blueviolet;
+  border-bottom : blueviolet ;
+}
+
+
+.customText{
+  word-wrap: normal;
+}
+
+.a{
+  color: green;
 }
