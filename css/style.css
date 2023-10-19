@@ -293,7 +293,7 @@ a:hover {
 }
 
 .service_section .card .card-title {
-  color: #fc5d35;
+  color: var(--text-verde);
 
 }
 
@@ -316,7 +316,7 @@ a:hover {
 }
 
 .service_section .card:hover::after {
-  background-color: #fc5d35;
+  background-color: var(--text-prkal);
 }
 
 /* end service section */

@@ -1,0 +1,13 @@
+.imgMitos{
+  float: right;
+  margin-top: 1px;
+  margin-bottom: 1000px;
+}
+
+#cardMaleficios .card-title{
+    color: brown;
+}
+
+.service_section #cardMaleficios:hover::after{
+    background-color: brown;
+}
