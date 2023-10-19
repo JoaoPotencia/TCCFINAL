@@ -1,7 +1,7 @@
 .imgMitos{
   float: right;
-  margin-top: 1px;
-  margin-bottom: 1000px;
+  position: relative;
+  top: 800px;
 }
 
 #cardMaleficios .card-title{
@@ -11,3 +11,11 @@
 .service_section #cardMaleficios:hover::after{
     background-color: brown;
 }
+
+.customText{
+  display: block;
+}
+
+/* .tituloMitos{
+  text-align: center;
+} */
