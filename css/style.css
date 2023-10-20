@@ -223,7 +223,7 @@ a:hover {
 
 .slider_item-detail h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 70px;
   width: 95%;
 }
 
@@ -514,9 +514,6 @@ a:hover {
 /* end footer section*/
 .navbar-nav:hover{
   color: var(--text-verde);
-}
-.navbar-brand img{
-  width: 200px;
 }
 
 
