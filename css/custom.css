@@ -31,11 +31,6 @@
   width: 100%;
 }
 
-/* .tituloMitos{
-  text-align: center;
-} */
-
-
 
 .experiencia {
   display: grid;
@@ -44,13 +39,14 @@
   padding: 40px 0px 40px 0px;
 }
 
+/* ALIMENTACAo*/
 .experiencia h1 {
-  max-width: 4ch;
+  max-width: 13ch;
   overflow-wrap: break-word;
   color: #cfcfcf;
-  font-size: 165px;
+  font-size: 100px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 106.5%; /* 175.725px */
   padding: 0px 50px 0px 0px;
 }
@@ -78,11 +74,11 @@
   background: var(--c1, #f5f5f5);
   position: relative;
 }
-
+ 
 .detalhe1 {
   content: "";
   position: absolute;
-  background: var(--grad, linear-gradient(180deg, #e81717 0%, #ee16a4 100%));
+  background: var(--grad, linear-gradient(180deg, var(--text-prkal) 0%, var(--text- --text-garlk) 100%));
   width: 5px;
   height: 20px;
   flex-shrink: 0;
@@ -142,7 +138,7 @@
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: 400px) {
   .experiencia {
     display: grid;
     grid-template-columns: 1fr;
@@ -153,7 +149,7 @@
   }
 
   .experiencia h1 {
-    font-size: 3.25rem;
+    font-size: 1.2rem;
     overflow-wrap: normal;
     color: #cfcfcf;
     padding: 0px;
@@ -209,6 +205,12 @@
     position: absolute;
   }
 }
+.respVerdade{
+  color: var(--text-grox);
+}
 
+.respMito{
+  color: brown;
+}
 
 
