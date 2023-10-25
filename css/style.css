@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Noto+Serif:wght@400;700&family=Roboto+Slab:wght@500&display=swap');
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #000000;
@@ -331,21 +333,22 @@ a:hover {
 .tasty_section {
   width: 100%;
   height: 500px;
-  background-image: url(../images/retrato-do-homem-em-casa-bebendo-um-copo-d-agua\ \(1\).jpg);
+  background-image: url(../images/bebendoAgua.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  opacity: 0.9;
 }
 
 .tasty_section h2 {
-  font-size: 125px;
+  font-size: 90px;
   text-align: center;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* end tasty section */
@@ -468,11 +471,13 @@ a:hover {
 
 .info_section .social-box {
   margin: 25px 0;
+ 
 }
 
 .info_section .social-box img {
   width: 35px;
   margin-right: 5px;
+  align-items: center;
 }
 
 .info_section .form_container input {

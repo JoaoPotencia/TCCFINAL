@@ -4,6 +4,16 @@
   top: 200px;
 }
 
+.imgAlm{
+  position: relative;
+  top: 50px;
+  height: 700px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin: 0;
+  padding: 0;
+}
+
 #cardMaleficios .card-title{
     color: brown;
 }
@@ -78,7 +88,7 @@
 .detalhe1 {
   content: "";
   position: absolute;
-  background: var(--grad, linear-gradient(180deg, var(--text-prkal) 0%, var(--text- --text-garlk) 100%));
+  background: var(--grad, linear-gradient(180deg, var(--text-prkal) 0%, var(--text-garlk) 100%));
   width: 5px;
   height: 20px;
   flex-shrink: 0;
@@ -100,7 +110,7 @@
 }
 
 .projeto01-conteudo {
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -129,7 +139,7 @@
 .detalhe2 {
   content: "";
   position: absolute;
-  background: var(--grad, linear-gradient(180deg, #e81717 0%, #ee16a4 100%));
+  background: var(--grad, linear-gradient(180deg, var(--text-prkal) 0%, var(--text-garlk) 100%));
   width: 5px;
   height: 20px;
   flex-shrink: 0;
@@ -213,4 +223,25 @@
   color: brown;
 }
 
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
 
+/*** Spinner ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+  color: var(--text-prkal);
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
