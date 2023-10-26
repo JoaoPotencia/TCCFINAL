@@ -49,8 +49,8 @@ body {
 
 .custom_dark-btn:hover {
   border: 1px solid #000000;
-  color: #000000;
-  background-color: transparent;
+  color: white;
+  /* background-color: transparent; */
 }
 
 .custom_orange-btn {
@@ -112,10 +112,6 @@ a:focus {
 
 a:focus {
   color: initial;
-}
-
-a:hover {
-  color: var(--text-verde) !important;
 }
 
 

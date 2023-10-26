@@ -17,16 +17,25 @@
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+  
   <!-- Custom styles for this template -->
 
   <link href="css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
@@ -59,16 +68,16 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a id="itensHome" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="fruit.html"> alimentação saudável</a>
+                  <a id="itensHome" class="nav-link" href="fruit.html"> alimentação saudável</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html"> projeto nutriação </a>
+                  <a id="itensHome" class="nav-link" href="service.html"> projeto nutriação </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html"> curiosidades </a>
+                  <a id="itensHome" class="nav-link" href="contact.html"> curiosidades </a>
                 </li>
               </ul>
             </div>
@@ -90,7 +99,7 @@
                     <div class="col-md-6">
                       <div class="slider_item-detail">
                         <div>
-                          <h1>
+                          <h1 class="animated slideInLeft">
                             Conheça o </br>Projeto NUTRIAÇÃO
                           </h1>
                           <p>
@@ -101,7 +110,7 @@
                             believable.
                           </p>
                           <div class="d-flex">
-                            <a href="fruit.html" class="text-uppercase custom_dark-btn">
+                            <a href="fruit.html" class="text-uppercase custom_dark-btn animated slideInLeft">
                               SAIBA MAIS
                             </a>
                           </div>
@@ -128,7 +137,7 @@
                     <div class="col-md-6">
                       <div class="slider_item-detail">
                         <div>
-                          <h1>
+                          <h1 class="animated slideInLeft">
                             10 Passos Alimentação </br>
                             Saudável
                           </h1>
@@ -140,7 +149,7 @@
                             believable.
                           </p>
                           <div class="d-flex">
-                            <a href="" class="text-uppercase custom_dark-btn">
+                            <a href="" class="text-uppercase custom_dark-btn animated slideInLeft">
                               Saiba Mais
                             </a>
                           </div>
@@ -220,14 +229,14 @@
 
   <section class="service_section layout_padding ">
     <div class="container">
-      <h2 class="custom_heading">Beneficios de uma alimentação saudavel</h2>
-      <p class="custom_heading-text">
+      <h2 class="custom_heading wow fadeInUp" dara-wow-delay="0.1s">Beneficios de uma alimentação saudavel</h2>
+      <p class="custom_heading-text wow fadeInUp" dara-wow-delay="0.1s">
         Uma alimentação saudável é caracterizada como aquela que atende a todas as exigências do corpo, ou seja, não
         está abaixo nem acima das necessidades do nosso organismo.
       </p>
       <div class=" layout_padding2">
         <div class="card-deck">
-          <div class="card">
+          <div class="card wow fadeInUp"data-wow-delay="0.1s">
             <img class="card-img-top" src="images/saude_resized.png" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Saúde do coração e prevenção do AVC</h5>
@@ -239,7 +248,7 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card wow fadeInUp"data-wow-delay="0.1s">
             <img class="card-img-top" src="images/crescimento_resized.png" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Melhora do Humor</h5>
@@ -251,7 +260,7 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card wow fadeInUp" data-wow-delay="0.1s">
             <img class="card-img-top" src="images/perda-de-peso (1).png" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Perda de Peso</h5>
@@ -273,8 +282,8 @@
   <!-- Start Maleficios-->
   <section class="service_section layout_padding ">
     <div class="container">
-      <h2 class="custom_heading">Maleficios de uma má alimentação</h2>
-      <p class="custom_heading-text">
+      <h2 class="custom_heading wow fadeInUp" data-wow-delay="0.1s">Maleficios de uma má alimentação</h2>
+      <p class="custom_heading-text wow fadeInUp" data-wow-delay="0.1s">
         A alimentação saudável ao longo da vida evita não só a má nutrição em todas as suas formas, mas também uma gama
         de Doenças Crônicas Não Transmissíveis (DCNT) e outras condições de saúde. No entanto, com o aumento da produção
         de alimentos processados, a rápida urbanização e a mudança de estilos de vida deram lugar a uma alteração nos
@@ -282,7 +291,7 @@
       </p>
       <div class=" layout_padding2">
         <div class="card-deck">
-          <div id="cardMaleficios" class="card">
+          <div id="cardMaleficios" class="card wow fadeInUp" data-wow-delay="0.1s">
             <img class="card-img-top" src="images/gordura (1).png" />
             <div class="card-body">
               <h5 class="card-title">Obesidade</h5>
@@ -294,7 +303,7 @@
               </p>
             </div>
           </div>
-          <div id="cardMaleficios" class="card">
+          <div id="cardMaleficios" class="card wow fadeInUp" data-wow-delay="0.1s">
             <img class="card-img-top" src="images/colesterol (1).png" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Colesterol Elevado</h5>
@@ -306,7 +315,7 @@
               </p>
             </div>
           </div>
-          <div id="cardMaleficios" class="card">
+          <div id="cardMaleficios" class="card wow fadeInUp" data-wow-delay="0.1s">
             <img class="card-img-top" src="images/rosquinha_resized.png" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Diabetes</h5>
@@ -553,6 +562,18 @@
   </section>
   <!-- footer section -->
 
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
 
 

@@ -26,6 +26,12 @@
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
@@ -38,14 +44,14 @@
     </div>
   </div>
   <!-- Spinner End -->
-  
+
   <div class="hero_area sub_pages">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
-            <img src="images/LOGO_NUTRIÇÃO.png" alt=""/>
+            <img src="images/LOGO_NUTRIÇÃO.png" alt="" />
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,54 +89,71 @@
 
   <main class="experiencia" id="experiencia" aria-label="Experiência">
     <div class="exp">
-        <h1>Alimentação Saudavel</h1>
-        <img class="imgAlm" src="images/Alm.png" alt="">
+      <h1>Alimentação Saudavel</h1>
+      <img class="imgAlm  wow zoomIn" data-wow-delay="0.1s" src="images/Alm.png" alt="">
     </div>
-    
 
-    <div class="experiencia-projeto">
-        <div class="experiencia-projeto-topo">
-            <p>A</p>
+
+    <div class="experiencia-projeto animated slideInLeft">
+      <article class="projeto01">
+        <span class="detalhe1"></span>
+        <div class="projeto01-topo">
+          <h2>1° Fazer de alimentos in natura ou minimamente processados a base da alimentação.</h2>
         </div>
-        <article class="projeto01">
-            <span class="detalhe1"></span>
-            <div class="projeto01-topo">
-                <h2>Passo 1</h2>
-            </div>
-            <div class="projeto01-conteudo">
-                <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
-            </div>
-        </article>
-
-        <article class="projeto01">
-          <span class="detalhe1"></span>
-          <div class="projeto01-topo">
-              <h2>Passo 1</h2>
-          </div>
-          <div class="projeto01-conteudo">
-              <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
-          </div>
+        <div class="projeto01-conteudo">
+          <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
+        </div>
       </article>
 
       <article class="projeto01">
         <span class="detalhe1"></span>
         <div class="projeto01-topo">
-            <h2>Passo 1</h2>
+          <h2>2° Utilizar óleos, gorduras, sal e açúcar em pequenas quantidades ao temperar e cozinhar alimentos e criar preparações culinárias.</h2>
         </div>
         <div class="projeto01-conteudo">
-            <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
+          <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
         </div>
-    </article>
-      </div>
-      
-      
-      
+      </article>
+
+      <article class="projeto01">
+        <span class="detalhe1"></span>
+        <div class="projeto01-topo">
+          <h2>3° Limitar o consumo de alimentos processados.</h2>
+        </div>
+        <div class="projeto01-conteudo">
+          <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
+        </div>
+      </article>
+
+      <article class="projeto01">
+        <span class="detalhe1"></span>
+        <div class="projeto01-topo">
+          <h2>4° Evitar o consumo de alimentos ultraprocessados</h2>
+        </div>
+        <div class="projeto01-conteudo">
+          <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
+        </div>
+      </article>
+
+      <article class="projeto01">
+        <span class="detalhe1"></span>
+        <div class="projeto01-topo">
+          <h2>5° Comer com regularidade e atenção, em ambientes apropriados e, sempre que possível, com companhia </h2>
+        </div>
+        <div class="projeto01-conteudo">
+          <p>Primeiro projeto feito em <span>HTML, CSS e JS</span>. Projeto feito no Alfacon, empresa onde comecei.</p>
+        </div>
+      </article>
+    </div>
+
+
+
   </main>
 
 
 
 
-  <section class="fruit_section layout_padding-top">
+  <!-- <section class="fruit_section layout_padding-top">
     <div class="container">
       <h2 class="custom_heading">Fresh Fruits</h2>
       <p class="custom_heading-text">
@@ -213,7 +236,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- end fruits section -->
 
@@ -364,10 +387,24 @@
   </section>
   <!-- footer section -->
 
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
-  
+
 </body>
 
 </html>
