@@ -235,7 +235,7 @@
 }
 
 
-.back-to-top a {
+.back-to-top span {
   text-decoration: none;
   background-color: #1414b9;
   color: #fff;
@@ -266,4 +266,12 @@ html{
 }
 #itensHome:hover{
   color: var(--text-verde);
+}
+
+ 
+#aniBtn{
+  color: white !important;
+  background-color: black !important;
+  padding: 10px !important;
+  border-radius: 3px !important;
 }
