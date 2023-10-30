@@ -39,6 +39,9 @@
 
   <!-- responsive style -->
   <link href="csinicion" href="images/icone.png">
+
+   <!--Icone-->
+   <link rel="icon" href="images/icone.png">
 </head>
 
 <body>
@@ -90,7 +93,7 @@
 
     <!-- slider section -->
     <section class=" slider_section position-relative">
-      <div id="carouselExampleControls" class="carousel slide position-relative" data-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide position-relative" data-ride="carousel" data-bs-interval="">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="slider_item-box">
@@ -103,7 +106,7 @@
                           <h1 id="ani" onclick="mudarAnimacao()" class="animated slideInRight">
                             Conheça o </br>Projeto NUTRIAÇÃO
                           </h1>
-                          <p>
+                          <p id="ani" class="animated slideInRight" >
                             There are many variations of passages of Lorem
                             Ipsum available, but the majority have suffered
                             alteration in some form, by injected humour, or
@@ -142,7 +145,7 @@
                             10 Passos Alimentação </br>
                             Saudável
                           </h1>
-                          <p>
+                          <p id="ani">
                             There are many variations of passages of Lorem
                             Ipsum available, but the majority have suffered
                             alteration in some form, by injected humour, or
@@ -516,7 +519,9 @@
   </section>
 
   <!--Back to Top-->
-  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+  <button id="btnTop" class="btn btn-primary" style="position: fixed; bottom: 50px; right: 50px; display: none; border:#52734D;">
+    <i class="bi bi-arrow-up"></i>
+  </button>
 
   <!-- footer section -->
   <section class="container-fluid footer_section">

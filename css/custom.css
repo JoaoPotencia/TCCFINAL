@@ -39,9 +39,10 @@
 
 .imgTop img{
   width: 50%;
+  text-align: center !important; 
 }
 
-
+/* Start ALIMENTACAO Informacoes*/
 .experiencia {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -49,7 +50,8 @@
   padding: 40px 0px 40px 0px;
 }
 
-/* ALIMENTACAo*/
+
+/* ALIMENTACAO Informacoes*/
 .experiencia h1 {
   max-width: 13ch;
   overflow-wrap: break-word;
@@ -215,6 +217,10 @@
     position: absolute;
   }
 }
+
+/* End ALIMENTACAO Informacoes*/
+
+/*Start Mitos e Verdades*/
 .respVerdade{
   color: var(--text-grox);
 }
@@ -222,28 +228,7 @@
 .respMito{
   color: brown;
 }
-
-.back-to-top {
-  position: fixed;
-  display: none;
-  right: 45px;
-  bottom: 45px;
-  z-index: 99;
-  color: white !important;
-  background-color: var(--text-prkal) !important;
-  border-radius: 5px;
-}
-
-
-.back-to-top span {
-  text-decoration: none;
-  background-color: #1414b9;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 20%;
-  display: block;
-}
-
+/*End Mitos*/
 
 html{
   scroll-behavior: smooth;
@@ -268,10 +253,32 @@ html{
   color: var(--text-verde);
 }
 
- 
+/*End Spinner*/
+
+ /*Button Carousel SAIBA MAIS*/
 #aniBtn{
   color: white !important;
   background-color: black !important;
   padding: 10px !important;
   border-radius: 3px !important;
+}
+
+#btnTop{
+  animation-name: apareceBtn;
+  animation-duration: 2s;
+  text-decoration: none ;
+  background-color: var(--text-prkal);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10%;
+  display: block;
+}
+
+@keyframes apareceBtn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
