@@ -14,13 +14,6 @@
   padding: 0;
 }
 
-.section_consumoAgua{
-  margin-top: 50px;
-  margin-left: 1200px;
-  max-height: 100%;
-}
-
-
 .imgAlim2{
   position: relative;
   margin-right: 100%;
@@ -40,11 +33,11 @@
 
 /*Card-Agua */
 #cardConsumodeAgua .card-title{
-  color: rgb(48, 48, 128);
+  color: #146781;
 }
 
 .service_section #cardConsumodeAgua:hover::after{
-  background-color: rgb(65, 65, 177);
+  background-color: #85c5d2;
 }
 
 .customText{
