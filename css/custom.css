@@ -4,6 +4,11 @@
   top: 200px;
 }
 
+
+.section_consumoAgua img{
+  border-radius: 5px;
+}
+
 .imgAlm{
   position: relative;
   top: 50px;
