@@ -6,7 +6,7 @@
 
 
 .section_consumoAgua img{
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .imgAlm{
@@ -303,3 +303,10 @@ html{
       opacity: 1;
   }
 }
+
+.dropdown-item{
+  background-color: white !important;
+}
+
+
+
