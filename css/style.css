@@ -394,7 +394,7 @@ a:focus {
 
 .client_section .custom_carousel-control .carousel-control-prev:hover,
 .client_section .custom_carousel-control .carousel-control-next:hover {
-  background-color: #fc5d35;
+  background-color: var(--text-prkal);
 }
 
 .client_section .custom_carousel-control .carousel-control-prev {
