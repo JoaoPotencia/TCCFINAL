@@ -308,6 +308,29 @@ html{
   background-color: white !important;
 }
 
+.custom_heading-text{
+  font-size: 20px;
+}
+
+.img4{
+  margin-top: 40px;
+}
+
+.custom_dark-btn{
+  background-color: var(--text-garlk) !important;
+  border: var(--text-grox) !important;
+}
+
+.custom_dark-btn:hover{
+  background-color: var(--text-prkal) !important;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
 
 
 
