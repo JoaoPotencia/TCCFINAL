@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .imgMitos{
   float: right;
   position: relative;
@@ -7,25 +16,50 @@
 
 .section_consumoAgua img{
   border-radius: 20px;
+  position: relative;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius:5px;
+}
+
+.section_consumoAgua img::after{
+  content:"";
+  width: 100%;
+  height: 100%;
+  opacity:0;
+  border-radius:5px;
+  box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: -1;
+}
+
+.section_consumoAgua img:hover{
+  transform:scale(1.10,1.10);
+}
+
+.section_consumoAgua img:hover::after{
+  opacity:1;
 }
 
 .imgAlm{
   position: relative;
   top: 50px;
-  height: 700px;
+  height: 800px;
   margin-left: 0%;
   margin-right: 0%;
   margin: 0;
   padding: 0;
+  top: 190px;
 }
 
 .imgAlim2{
   position: relative;
   margin-right: 100%;
-  height: 700px;
-  /* margin-left: 200px; */
+  height: 900px;
   margin: 0 0 0 200px;
+  text-align: center;
   padding: 0;
+  top: 220px;
 }
 
 #cardMaleficios .card-title{
@@ -105,9 +139,29 @@
   margin-top: 50px;
   padding: 20px;
   border-radius: 7px;
-  border: 1px solid var(--c2, #e6e6e6);
-  background: var(--c1, #f5f5f5);
   position: relative;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius:5px;
+}
+
+.projeto01:after{
+  content:"";
+  width: 100%;
+  height: 100%;
+  opacity:0;
+  border-radius:5px;
+  box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: -1;
+ 
+}
+
+.projeto01:hover{
+  transform:scale(1.10,1.10);
+}
+.projeto01:hover::after{
+  opacity:1;
 }
  
 .detalhe1 {
@@ -134,9 +188,7 @@
   line-height: normal;
 }
 
-.projeto01-conteudo {
-  
-}
+
 
 .projeto01-conteudo p {
   color: var(--c9, #454545);
@@ -270,6 +322,8 @@ html{
   visibility: visible;
   opacity: 1;
 }
+
+
 #itensHome:hover{
   color: var(--text-verde);
 }
@@ -345,13 +399,13 @@ html{
   display: none;
 }
 
-.slide{
+.slide_An{
   width: 25%;
   position: relative;
   transition: 1s;
 }
 
-.slide img{
+.slide_An img{
   width: 800px;
 }
 
@@ -439,4 +493,73 @@ html{
 
 .textMitos{
   text-align: left;
+}
+
+footer{
+  background: linear-gradient(to top,#52734D 0%, #91C788 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 40px 100px 20px;
+  width: 100%;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px
+}
+
+.medias-socias{
+  margin-bottom: 20px;
+}
+
+.medias-socias i {
+  font-size: 28px;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap; 
+  list-style: none;
+}
+
+.links a{
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 17px;
+}
+
+.copyright{
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.line{
+  background-color: white;
+  width: 20px;
+  height: 6px;
+  margin-top: 2px;
+  border-radius: 40px;
+  position: relative;
+  left: -431px;
+  animation: underline-animation 3s linear infinite;
+}
+
+
+@keyframes underline-animation{
+  0%{
+    left: -431px;
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    left: 450px;
+    opacity: 0;
+  }
 }
