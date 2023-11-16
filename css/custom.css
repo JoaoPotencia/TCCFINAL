@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .imgMitos{
   float: right;
   position: relative;
@@ -112,7 +105,7 @@
 .experiencia h1 {
   max-width: 13ch;
   overflow-wrap: break-word;
-  color: #cfcfcf;
+  color: var(--text-prkal);
   font-size: 100px;
   font-style: normal;
   font-weight: 100;
@@ -143,6 +136,7 @@
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   border-radius:5px;
+  cursor: pointer;
 }
 
 .projeto01:after{
@@ -181,7 +175,7 @@
 
 .projeto01-topo h2 {
   color: var(--c11, #171717);
-  font-family: "Fira Sans";
+  font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -325,7 +319,7 @@ html{
 
 
 #itensHome:hover{
-  color: var(--text-verde);
+  color: #4c7245;
 }
 
 /*End Spinner*/
@@ -501,14 +495,14 @@ footer{
   align-items: center;
   flex-direction: column;
   color: white;
-  padding: 40px 100px 20px;
+  padding: 15px;
   width: 100%;
-  border-top-left-radius: 180px;
-  border-top-right-radius: 180px
 }
 
 .medias-socias{
+  position: relative;
   margin-bottom: 20px;
+  top: 12px;
 }
 
 .medias-socias i {
@@ -524,6 +518,7 @@ footer{
   display: flex;
   flex-wrap: wrap; 
   list-style: none;
+  padding: 10px;
 }
 
 .links a{
@@ -547,6 +542,7 @@ footer{
   position: relative;
   left: -431px;
   animation: underline-animation 3s linear infinite;
+  bottom: 13px;
 }
 
 
@@ -562,4 +558,29 @@ footer{
     left: 450px;
     opacity: 0;
   }
+}
+
+
+#git:hover{
+  background-color: #016b2d;
+}
+
+#insta:hover{
+  background-color: #016b2d;
+}
+
+#in:hover{
+  background-color: #016b2d;
+}
+
+#tt:hover{
+  background-color: #016b2d;
+}
+
+.links a:hover{
+  color: var(--text-garlk);
+}
+.imgNav{
+  position: relative;
+  /* padding: 30px; */
 }

@@ -83,7 +83,9 @@ body {
   height: auto;
 }
 
-.header_section {}
+.header_section {
+  background-color: #fff;
+}
 
 .header_section .container-fluid {
   padding-right: 25px;
