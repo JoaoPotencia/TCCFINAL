@@ -351,6 +351,15 @@ html{
       opacity: 1;
   }
 }
+  
+@keyframes sumirBtn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
 
 .dropdown-item{
   background-color: white !important;
@@ -377,15 +386,15 @@ html{
 /*CSS SLIDER */
 .slider{
   margin: 0 auto;
-  width: 800px;
-  height: 400px;
+  width: 1200px;
+  height: 600px;
   overflow: hidden;
  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
 }
 
 .slides{
   width: 400%;
-  height: 400px;
+  height: 800px;
   display: flex;
 }
 
@@ -400,7 +409,7 @@ html{
 }
 
 .slide_An img{
-  width: 800px;
+  width: 1200px;
 }
 
 .manual-navigation{
@@ -583,4 +592,15 @@ footer{
 .imgNav{
   position: relative;
   /* padding: 30px; */
+}
+
+.client_detail i{
+  font-size: 28px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px;
 }
