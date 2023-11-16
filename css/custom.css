@@ -426,6 +426,9 @@ html{
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
+  position: relative;
+  bottom: 220px;
+  left: 200px;
 }
 
 .manual-btn:not(:last-child){
@@ -452,22 +455,22 @@ html{
   margin-left: -75%;
 }
 
-
+/* 
 .navigation-auto div{
   border: 2px solid var(--text-prkal);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
-}
+} */
 
-.navigation-auto{
+/* .navigation-auto{
   position: absolute;
   width: 800px;
   margin-top: 360px;
   display: flex;
   justify-content: center;
-}
+} */
 
 .navigation-auto div:not(:last-child){
   margin-right: 10px;
