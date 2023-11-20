@@ -499,7 +499,7 @@ footer{
 .imgAtencaoPlena{
   border-radius: 7px;
   position: relative;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   border-radius:5px;
   cursor: pointer;
@@ -508,8 +508,8 @@ footer{
 
 .imgAtencaoPlena:after{
   content:"";
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   opacity:0;
   border-radius:5px;
   box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
@@ -547,12 +547,12 @@ footer{
   display: none;
 }
 
-.slide{
+.slideAl {
   width: 20%;
   position: relative;
 }
 
-.slide img{
+.slideAl img{
   width: 800px;
 }
 
@@ -562,4 +562,18 @@ footer{
   margin-top: -40px;
   display: flex;
   justify-content: center;
+}
+
+#text{
+  height: 600px;
+}
+
+.carousellButtons{
+  background-color: #0000;
+  border: none;
+}
+
+.carouselContainer{
+  margin: 0px 0px 50px 200px;
+  
 }
