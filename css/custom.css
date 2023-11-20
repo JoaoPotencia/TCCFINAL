@@ -84,7 +84,7 @@
 .imgTop{
   max-height: 100%;
   padding: 60px;
-   
+  display: flex;
 }
 
 .imgTop img{
@@ -375,116 +375,6 @@ html{
   background-color: var(--text-prkal) !important;
 }
 
-
-/*CSS SLIDER */
-.slider{
-  margin: 0 auto;
-  width: 1200px;
-  height: 600px;
-  overflow: hidden;
- box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
-}
-
-.slides{
-  width: 400%;
-  height: 800px;
-  display: flex;
-}
-
-.slides input{
-  display: none;
-}
-
-.slide_An{
-  width: 25%;
-  position: relative;
-  transition: 1s;
-}
-
-.slide_An img{
-  width: 1200px;
-}
-
-.manual-navigation{
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-}
-
-.manual-btn{
-  border: 2px solid #fff;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-  position: relative;
-  bottom: 220px;
-  left: 200px;
-}
-
-.manual-btn:not(:last-child){
-  margin-right: 10px;
-}
-
-.manual-btn:hover{
-  background-color: #fff;
-}
-
-#radio1:checked ~ .first{
-  margin-left: 0%;
-}
-
-#radio2:checked ~ .first{
-  margin-left: -25%;
-}
-
-#radio3:checked ~ .first{
-  margin-left: -50%;
-}
-
-#radio4:checked ~ .first{
-  margin-left: -75%;
-}
-
-/* 
-.navigation-auto div{
-  border: 2px solid var(--text-prkal);
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-} */
-
-/* .navigation-auto{
-  position: absolute;
-  width: 800px;
-  margin-top: 360px;
-  display: flex;
-  justify-content: center;
-} */
-
-.navigation-auto div:not(:last-child){
-  margin-right: 10px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-  background-color: #fff;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-  background-color: #fff;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3{
-  background-color: #fff;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
-  background-color: #fff;
-}
-
 .textSlid{
   text-align: center;
   margin-top: 20px;
@@ -633,4 +523,43 @@ footer{
 
 .imgAtencaoPlena:hover::after{
   opacity: 1;
+}
+
+.videoApresentacao{
+  text-align: center;
+}
+
+
+.slider{
+  margin: 0 auto;
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 600px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  position: relative;
+}
+
+.slide img{
+  width: 800px;
+}
+
+.manual-navigation{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
 }
