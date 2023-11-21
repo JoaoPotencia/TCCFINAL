@@ -529,41 +529,6 @@ footer{
   text-align: center;
 }
 
-
-.slider{
-  margin: 0 auto;
-  width: 1200px;
-  height: 600px;
-  overflow: hidden;
-}
-
-.slides{
-  width: 500%;
-  height: 600px;
-  display: flex;
-}
-
-.slides input{
-  display: none;
-}
-
-.slideAl {
-  width: 20%;
-  position: relative;
-}
-
-.slideAl img{
-  width: 800px;
-}
-
-.manual-navigation{
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-}
-
 #text{
   height: 600px;
 }
@@ -574,6 +539,10 @@ footer{
 }
 
 .carouselContainer{
-  margin: 0px 0px 50px 200px;
-  
+  margin: 0px 0px 50px 200px; 
+}
+
+.pOficaMitos{
+  font-size: 30px;
+  text-align: center;
 }
