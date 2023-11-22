@@ -25,6 +25,9 @@
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
   <!-- Custom styles for this template -->
@@ -118,16 +121,13 @@
         style="font-weight: bold; cursor: pointer; text-decoration: none; color: black; margin-top: 10px;">Profa. Dra.
         Daniela Miotto
         Bernardi <span class="m-3"><a href="https://sites.google.com/view/nutriacaounioeste/equipe#h.mc9c3iu9koq0"
-            style="font-weight: bold; cursor: pointer; text-decoration: none; color: black;">Profa. Dra. Mariana Abe Vicente
-            </a></span></a>
+            style="font-weight: bold; cursor: pointer; text-decoration: none; color: black;">Profa. Dra. Mariana Abe
+            Vicente
+          </a></span></a>
 
-      <img style="width: 300px;"
-        src="https://lh4.googleusercontent.com/B5irfqmfOw_WoIgm-hlahFYIDHdk8Bfff8vfHE96VvJrYZnFk6cOAJyDQXlbxJ91GmeEw7kDK4MgiJf2fi-1L7OvJMbLAf6R0-m4NoFaDic88XIPQvwWbkAkrSaLp_nb6w=w1280"
-        alt="">
+      <img style="width: 300px;" src="images/profDani.jpeg" alt="">
 
-      <img class="m-5" style="width: 250px;"
-        src="https://lh5.googleusercontent.com/IbHi0z0ttSqBd7Umt-SJuc31peY21AOcSXizwsiBUE3ArecIaVLONO83ZLtotCMs6fMRYXJ2o0VHT9K4EqKc-r_8JDRutMNQjOwBE1gwZt4B9kxpSC7ALoDBHu40YJUlZA=w1280"
-        alt="">
+      <img class="m-5" style="width: 250px;" src="images/profMariana.jpg" alt="">
     </p>
   </div>
 
@@ -209,7 +209,8 @@
   <!--Start Slide -->
   <section class="container carouselContainer">
     <h2 class="custom_heading p-2">Oficinas realizadas no Instituto Federal - Campus Cascavel</h2>
-    <p class="pOficaMitos">Oficina <span style="color: brown; font-weight: bold;"> Mitos</span> e <span style="color: #52734D; font-weight: bold;"> Verdades </span> sobre alimentação</p>
+    <p class="pOficaMitos">Oficina <span style="color: brown; font-weight: bold;"> Mitos</span> e <span
+        style="color: #52734D; font-weight: bold;"> Verdades </span> sobre alimentação</p>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -241,6 +242,8 @@
   <!--End Slide-->
 
   <section class="container carouselContainer">
+    <p class="pOficaMitos">Oficina <span style="color: brown; font-weight: bold;"> Mitos</span> e <span
+        style="color: #52734D; font-weight: bold;"> Verdades </span> sobre alimentação</p>
     <div id="carouselExampleControl" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -269,15 +272,39 @@
     </div>
   </section>
 
+  <!-- Star Estações -->
+  <section class="service_section">
+    <div class="container">
+      <h2 class="custom_heading wow fadeInUp " dara-wow-delay="0.1s" style="color: #52734D; position: relative;">
+        Explicando Oficina</h2>
+      <p class="custom_heading-text wow fadeInUp" dara-wow-delay="0.1s">
+       Abaixo alguns videos explicantivos sobre as estações 
+      </p>
+      <div id="corpo" class="layout_padding2">
+        <video src="videos/videoEstacao1.mp4" controls width="350" height="500"
+          poster="images/Logo_Projeto_Nutri_Ação.png">
 
+        </video>
+        <video src="videos/videoEstacao2.mp4" controls width="350" height="500"
+          poster="images/Logo_Projeto_Nutri_Ação.png">
 
+        </video>
+        <video src="videos/videoEstacao3.mp4" controls width="350" height="500"
+          poster="images/Logo_Projeto_Nutri_Ação.png">
 
+        </video>
+        <video src="videos/videoEstacao4.mp4" controls width="350" height="500"
+          poster="images/Logo_Projeto_Nutri_Ação.png">
 
-  <!-- Start Slide -->
+        </video>
+        <video src="videos/videoEstacao5.mp4" controls width="350" height="500"
+          poster="images/Logo_Projeto_Nutri_Ação.png">
 
-
-
-
+        </video>
+      </div>
+    </div>
+  </section>
+  <!-- End Estações -->
 
   <!--Back to Top -->
   <button id="btnTop" class="btn btn-primary"
@@ -288,14 +315,8 @@
 
   <!-- Start footer -->
   <footer>
-    <div class="medias-socias">
-      <i id="git" class="fa-brands fa-github"></i>
-      <i id="insta" class="fa-brands fa-instagram"></i>
-      <i id="in" class="fa-brands fa-linkedin"></i>
-      <i id="tt" class="fa-brands fa-twitter"></i>
-    </div>
     <ul class="links">
-      <li> <a href="#top">Home</a></li>
+      <li> <a href="index.html">Home</a></li>
       <li> <a href="fruit.html">Alimentação Saudável</a></li>
       <li> <a href="service.html">Projeto Nutriação</a></li>
       <li> <a href="contact.html">Mitos & Verdades</a></li>
@@ -303,6 +324,10 @@
       <li> <a href="sobreNos.html">Sobre Nós</a></li>
     </ul>
     <div class="line">
+    </div>
+    <div class="medias-socias">
+      <i id="git" class="fa-brands fa-github"></i>
+      <i id="insta" class="fa-brands fa-instagram"></i>
     </div>
     <p class="copyright"> João VItor &copy; 2023</p>
   </footer>
@@ -325,6 +350,13 @@
   <script src="js/main.js"></script>
   <script src="js/testeAnimacao.js"></script>
   <script src="js/slide.js"></script>
+  
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+
 
 </body>
 
