@@ -455,20 +455,19 @@ footer{
   }
 }
 
+#git{
+  color: white;
+}
+
+#insta{
+  color: white;
+}
 
 #git:hover{
   background-color: #016b2d;
 }
 
 #insta:hover{
-  background-color: #016b2d;
-}
-
-#in:hover{
-  background-color: #016b2d;
-}
-
-#tt:hover{
   background-color: #016b2d;
 }
 
@@ -538,12 +537,29 @@ footer{
   border: none;
 }
 
-.carouselContainer{
-  margin: 0px 0px 50px 200px; 
-}
-
 .pOficaMitos{
   font-size: 30px;
   text-align: center;
+}
+
+.tasty_sectionDietaxSono{
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/tasty-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.tasty_sectionDietaxSono h2 {
+  font-size: 90px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
 }
 
