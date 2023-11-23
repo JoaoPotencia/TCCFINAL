@@ -746,3 +746,12 @@ footer{
 .dicasInfo ul{
   line-height: 35px;
 }
+
+.imgProfessores{
+  width: 250px !important;
+  margin: 40px;
+}
+
+.fotosReceita{
+  width: 200px;
+}
