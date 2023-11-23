@@ -505,25 +505,6 @@ footer{
   margin: 50px;
 }
 
-.imgAtencaoPlena:after{
-  content:"";
-  width: 50%;
-  height: 50%;
-  opacity:0;
-  border-radius:5px;
-  box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  z-index: -1;
-}
-
-.imgAtencaoPlena:hover{
-  transform:scale(1.03,1.03);
-}
-
-.imgAtencaoPlena:hover::after{
-  opacity: 1;
-}
-
 .videoApresentacao{
   text-align: center;
 }
@@ -544,14 +525,14 @@ footer{
 
 .tasty_sectionDietaxSono{
   width: 100%;
-  height: 450px;
+  height: 300px;
   background-image: url(../images/tasty-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .tasty_sectionDietaxSono h2 {
@@ -562,4 +543,169 @@ footer{
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
 }
+
+.mapBox{
+ width: 500px;
+ height: 400px;
+ text-align: center;
+}
+
+.mapBox iframe{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+/*Testimoinal*/
+.card-main {
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-0 {
+  color: #fff;
+  background-color: #5F6F52;
+  position: relative;
+  margin-left: 70px;
+  border-radius: 10px;
+  min-height: 312px;
+}
+
+.carousel-indicators li {
+  cursor: pointer;
+  border-radius: 50% !important;
+  width: 10px;
+  height: 10px;
+}
+
+.profile {
+  color: #fff;
+  background-color: #A9B388;
+  position: absolute;
+  left: -70px;
+  top: 17%;
+  border-radius: 8px;
+  border-top-left-radius: 0px; 
+  border-bottom-right-radius: 0px; 
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.open-quotes {
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+.content {
+  margin-left: 150px;
+  margin-right: 80px;
+}
+
+.close-quotes {
+  margin-bottom: 100px;
+  margin-right: 60px
+}
+
+@media screen and (max-width: 600px) {
+  .card-main {
+      padding: 50px 10px;
+  }
+
+  .card-0 {
+      min-height: 432px;
+  }
+
+  .profile {
+      top: 24%;
+  }
+
+  .profile-pic {
+      width: 90px;
+      height: 90px;
+  }
+
+  .open-quotes {
+      margin-left: 100px;
+  }
+
+  .content {
+      margin-left: 120px;
+      margin-right: 50px;
+  }
+
+  .close-quotes {
+      margin-right: 30px
+  }
+}
+
+
+/*Maps*/
+.contato{
+  padding: 60px;
+  background: #feffff;
+  position: relative;
+  text-align: right;
+}
+
+.contato .contato-card{
+  width: 450px;
+  height: 350px;
+  background: #5F6F52;
+  position: absolute;
+  z-index: 99;
+  border-radius: 8px;
+  top: calc(50% - 150px);
+  left: calc(20% - 175px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.contats{
+  font-size: 2rem;
+}
+
+.contato .contato-card h1{
+  padding-left: 40px;
+  text-align: justify;
+  color: white;
+}
+
+.contato .contato-card li{
+  font-size: .8rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contato-card li:hover{
+  color: #A9B388 ;
+}
+
+.contato .contato-card li svg{
+  width: 16px;
+  margin: 10px;
+}
+
+
+
+#map {
+  height: 400px;
+  /*the height is 400 pixels */
+  width: 100%;
+  /*The widht is the widht of the web page */
+}
+
 
