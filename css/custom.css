@@ -755,3 +755,7 @@ footer{
 .fotosReceita{
   width: 200px;
 }
+
+.carousel-item img{
+  height: 900px !important;
+}
