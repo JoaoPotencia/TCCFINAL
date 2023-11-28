@@ -756,6 +756,6 @@ footer{
   width: 200px;
 }
 
-.carousel-item img{
-  height: 900px !important;
+.carousel-item .imgsFotosExperiencias{
+  height: 850px !important;
 }
